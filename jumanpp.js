@@ -1,4 +1,4 @@
-const spawn = require('child_process').spawn;
+const { spawn } = require('child_process');
 const { EOL } = require('os');
 
 class Jumnanpp {
