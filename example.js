@@ -1,4 +1,4 @@
-const Jumanpp = require('./jumanpp');
+const Jumanpp = require('./src/jumanpp');
 
 const main = async () => {
   const jumanpp = new Jumanpp();
