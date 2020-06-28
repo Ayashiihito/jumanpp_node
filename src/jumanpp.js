@@ -1,7 +1,7 @@
 const { spawn } = require('child_process');
 const { EOL } = require('os');
 
-class Jumnanpp {
+class Jumanpp {
   instance = null;
 
   constructor(command = 'jumanpp') {
@@ -32,7 +32,7 @@ class Jumnanpp {
     this.instance.stdin.write(sentence + EOL);
 
     return new Promise((resolve, reject) => {
-      //no actuall buffer handeling is impelmented
+      //no actual buffer handling is implemented
       this.instance.stdout.on('data', response => {
         resolve(response.toString());
       });
@@ -40,4 +40,4 @@ class Jumnanpp {
   }
 }
 
-module.exports = Jumnanpp;
+module.exports = Jumanpp;
