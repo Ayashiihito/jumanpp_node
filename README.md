@@ -16,7 +16,7 @@ Signifies an end of input and terminates the juman++ process
 
 ### Usage example
 
-```
+```js
   const jumanpp = new Jumanpp();
 
   const one = await jumanpp.query('玄関で愛を待ち惚け');
