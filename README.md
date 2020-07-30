@@ -4,14 +4,20 @@ This package aims to be a minimal wrapper around [juman++](https://github.com/ku
 
 ### API
 
-`new Jumanpp(command)`  
+```js
+new Jumanpp(command)
+```  
 Where command is an optional argument containing the path to juman++ binary, default is 'jumanpp'
 
-`Jumanpp.query(sentence)`  
+```js
+Jumanpp.query(sentence)
+```  
 Expects a string, throws an error on empty argument.
 Returns a promise.
 
-`Jumanpp.close()`  
+```js
+Jumanpp.close()
+```  
 Signifies an end of input and terminates the juman++ process
 
 ### Usage example
